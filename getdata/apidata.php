@@ -1,5 +1,5 @@
 <?php  
-$url = "http://localhost/php/api/test.php";
+$url = "http://localhost/php/api/test.php?key=qwertyasdfgzxcvb";
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL,$url);
 curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
